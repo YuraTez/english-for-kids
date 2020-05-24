@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>English for-kids</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/img/favicon.jpg"/>
+    <link rel="stylesheet" href="src/style.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <header class="header_container">
+
+        <nan class="menu">
+            <div class="hamburger" id="hamburger">
+                <span class="hamburger_line"></span>
+            </div>
+            <ul class="menu_list" id="menu_list">
+                <li><a data-key="categories" href="#" class="active">Main Page</a></li>
+                <li><a data-key="ActionA" href="#" >Action (set A)</a></li>
+                <li><a data-key="ActionB" href="#" >Action (set B)</a></li>
+                <li><a data-key="AnimalA" href="#" >Animal (set A</a></li>
+                <li><a data-key="AnimalB" href="#" >Animal (set B)</a></li>
+                <li><a data-key="Clothes" href="#" >Clothes</a></li>
+                <li><a data-key="Emotions" href="#" >Emotions</a></li>
+                <li><a data-key="Fruit" href="#" >Fruit</a></li>
+                <li><a data-key="Food" href="#" >Food</a></li>
+            </ul>
+        </nan>
+        <div class="switch" >
+            <p class="train">Train</p>
+            <p class="play">Play</p>
+            <input type="checkbox" id="active-play-game" class="cmn-toggle cmn-toggle-round" type="checkbox">
+            <label for="active-play-game" ></label>
+        </div>
+    </header>
+    <section>
+        <div class="result_game" id="result_game">
+        </div>
+    </section>
+    <section class="content_container">
+        <div class="cards_content" id="card_container">
+        </div>
+    </section>
+    <section class="start_game">
+        <button  class="btn_game" id="btn_start_game"> start game</button>
+        <button  class="btn_replay" id="btn_replay_game">repeat</button>
+        <audio id="audio_error" src="assets/audio/error.mp3"></audio>
+        <audio id="audio-correct" src="assets/audio/correct.mp3"></audio>
+    </section>
+</div>
+<script src="./src/index.js"></script>
+</body>
+</html>
+
