@@ -1,1 +1,1 @@
- yuratez-english-for-kids
+[ready site](https://yuratez-english-for-kids.netlify.app/)
